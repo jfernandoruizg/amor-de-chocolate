@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Iniciar Sesion</title>
+  </head>
+    <h2 class="grey-text text-lighten-2">Inicio De Sesión</h2>
+<body class="center login ">
+<div class="row columna1" >
+<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "col s12 z-depth-5"}) do |f| %>
+<br />
+<div class="row">
+  <div class="field col s12 ">
+    <%= f.label :Correo %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+</div>
+<div class="row">
+  <div class="field col s12">
+    <%= f.label :Contraseña %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+  </div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end -%>
+
+  <div class="actions center">
+    <%= f.submit "Iniciar Sesión" %>
+  </div>
+<% end %>
+</div>
+<!--<%= render "devise/shared/links" %>-->
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.seccion1 {
+			background: url(2.jpg) 10% 0 no-repeat fixed;
+			min-height: 700px;
+			margin:  auto;
+			width: 100%;
+			max-width: auto;
+			position: relative;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  }
+
+		.div1 {
+	  	background: url(4.jpg) 10% 0 no-repeat fixed;
+	}
+		.seccion2 {
+				background: url(Fondo1.jpg) 10% 0 no-repeat fixed;
+				min-height: 700px;
+				margin: 0 auto;
+				width: 100%;
+				max-width: 100%;
+				position: relative;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+
+		  }
+			.seccion3 {
+					background: url(cafe.jpg) 50% 0 no-repeat fixed;
+					min-height: 700px;
+					margin: 0 auto;
+					width: 100%;
+					max-width: auto;
+					position: relative;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+				}
+				.seccion4 {
+						background: url(6.jpg) 50% 0 no-repeat fixed;
+						min-height: 700px;
+						margin: 0 auto;
+						width: 100%;
+						max-width: auto;
+						position: relative;
+						-webkit-background-size: cover;
+						-moz-background-size: cover;
+						-o-background-size: cover;
+						background-size: cover;
+					}
+					.seccion5 {
+							background: url(1.jpg) 50% 0 no-repeat fixed;
+							min-height: 700px;
+							margin: 0 auto;
+							width: 100%;
+							max-width: auto;
+							position: relative;
+							-webkit-background-size: cover;
+							-moz-background-size: cover;
+							-o-background-size: cover;
+							background-size: cover;
+						}
+	.sombra{
+		top: 130px;
+		left: 10px;
+		-webkit-box-shadow: 10px 10px 156px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 156px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 156px 0px rgba(0,0,0,0.75);
+
+	}
+	.negro{color:#002521;}
+
+	.columna1 {
+position: center; /*Posicionamiento absoluto*/
+top: 50%; /*Desde arriba, colocar al 50% de la pantalla*/
+left: 50%; /*Desde la izquierda, colocar al 50% de la pantalla*/
+width: 300px;
+
+text-align:left;
+border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+background: rgba(33,33,33,.5);
+	 }
+
+
+	.login {
+			background: url(amor.jpg) 10% 0 no-repeat fixed;
+			max-width: auto;
+			position: relative;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  }
